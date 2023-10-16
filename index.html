@@ -11,6 +11,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script src="https://kit.fontawesome.com/c06afd305d.js" crossorigin="anonymous"></script>
+   <!--  aos -->
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <title>Document</title>
 </head>
@@ -57,9 +60,9 @@
 
     </header>
     <section class="container Home1">
-        <main class="container d-flex justify-center align-center flex-sm-row row">
-            <div class="col ImageContainer "><img class="image" src="./assets/abhishek.jpg" /></div>
-            <div class="col d-flex flex-column justify-content-center align-items-center p-3">
+        <main class="container wrap d-flex justify-content-center  align-center flex-md-row ">
+            <div class=" ImageContainer " data-aos="slide-right" data-aos-duration="500" data-aos-delay="300"><img class="image" src="./assets/abhishek.jpg" /></div>
+            <div class=" d-flex flex-column justify-content-center align-items-center p-3" data-aos="slide-left" data-aos-duration="500" data-aos-delay="300">
                 <h4>I'm a <span class="input">Frontend Developer</span></h4>
                 <h1 class="name">Abhishek Chuahan</h1>
                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sed voluptas ad,
@@ -71,8 +74,8 @@
     </section>
     <section
         class="Container-fluid Home2 d-flex flex-column  flex-sm-row justify-content-center justify-content-sm-between">
-        <h2 class="m-6 follow text-center">Follow me on social media</h2>
-        <div class="main figure1">
+        <h2 class="m-6 follow text-center" data-aos="slide-up" data-aos-duration="500" data-aos-delay="500">Follow me on social media</h2>
+        <div class="main figure1" data-aos="slide-up" data-aos-duration="500" data-aos-delay="400" >
             <div class="amazon brands"><i class="fa-brands fa-amazon fa-2x"></i></div>
             <div class="gmail brands"><i class="fa-sharp fa-solid fa-2x fa-envelope"></i></div>
             <div class="linkedin brands"><i class="fa-brands fa-2x fa-linkedin"></i>
@@ -82,8 +85,8 @@
         </div>
     </section>
     <section
-        class="Container-fluid Home3 mt-6 d-flex flex-sm-row flex-column align-items-sm-center justify-content-sm-between justify-content-between">
-        <div class="col-8 Projects d-flex flex-column flex-sm-row justify-content-around">
+        class="Container-fluid Home3 mt-6 d-flex flex">
+        <div class="col-8 Projects d-flex flex-sm-row justify-content-around"data-aos="slide-right" data-aos-duration="500" data-aos-delay="400">
             <article class="d-flex flex-column">
                 <div class="ImageContainer rounded">
                     <img src="https://abhi736.000webhostapp.com/images/cryproxx.png" />
@@ -100,7 +103,7 @@
                     <img src="https://abhi736.000webhostapp.com/images/recipe.png" />
                 </div>
                 <div class="d-flex flex-column p-2 g-2">
-                    <h4 class='fw-bold'>Recipe</h4>
+                    <h4 class='fw-bold text-center'>Recipe</h4>
                     <p class="fw-bold">An app that suggest you random recipes with an option to search any recipe that
                         you would like to have and add them to your favourite list </p>
                 </div>
@@ -110,14 +113,14 @@
                     <img src="https://abhi736.000webhostapp.com/images/movie.png" />
                 </div>
                 <div class="d-flex flex-column p-2 g-2">
-                    <h4 class='fw-bold'>Movie App</h4>
+                    <h4 class='fw-bold text-center'>Movie App</h4>
                     <p class="fw-bold">An app that shows top 20 trending movies with their ratings and description with
                         an addition option to search any movie of your liking and get it's rating and
                         description </p>
                 </div>
             </article>
         </div>
-        <h2 class="col-4 projectsHead text-center"> Check Out My Projects</h2>
+        <h2 class="col-4 projectsHead text-center" data-aos="slide-left" data-aos-duration="500" data-aos-delay="400"> Check Out My Projects</h2>
     </section>
 
 
